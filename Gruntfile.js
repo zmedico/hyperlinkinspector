@@ -127,7 +127,11 @@ module.exports = function(grunt) {
                         '!LICENSE*',
                         '!node_modules/**',
                         '!package.json',
-                        '!util/**'
+                        '!util/**',
+                        '!js/webintents.min.js',
+                        '!js/webintentsPopupLauncher.js',
+                        '!layout/webintents_popup_launcher.appcache',
+                        '!layout/webintents_popup_launcher.html'
                     ],
                     dest: crxTempDir,
                 }],
