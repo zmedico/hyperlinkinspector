@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link Inspector Extension's Popup</title>
+    <script type="text/javascript" src="../js/require.js"
+	data-main="../js/popup" async="true"></script>
+    <style>
+      body {
+        min-width: 357px;
+      }
+
+
+		/* http://www.jakpsatweb.cz/css/css-vertical-center-solution.html */
+		.vertCenter {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.linkTable {
+			border-collapse: collapse;
+		}
+
+		.tableRow {
+			margin: 0px;
+		}
+		.tableCell {
+			border-width: 1px;
+			border-style: solid;
+			border-color: #a0a0a0;
+			margin: 0px;
+		}
+    </style>
+  </head>
+  <body>
+		<div>
+			<div class="vertCenter">
+			<button id="copyButton" title="Copy">
+			<img src="../icons/Copy_font_awesome_32.png"
+				alt="Copy"/>
+			</button>
+			</div>
+			<div class="vertCenter">
+			<button id="saveButton" title="Save">
+			<img src="../icons/Save_font_awesome_32.png"
+				alt="Save"/>
+			</button>
+			</div>
+			<div class="vertCenter">
+			<button id="exportButton" title="Export">
+			<img src="../icons/Share_alt_font_awesome_32.png"
+				alt="Export"/>
+			</button>
+			</div>
+		</div>
+		<div>
+			<div class="vertCenter">
+				<input type="checkbox" id="selectAllCheckbox" checked="true">
+			</div>
+			<div class="vertCenter">
+			<img src="../icons/High-contrast-filter_16.png" alt="Filter" style="margin-left: 6px; padding: 50% 4px"/>
+			</div>
+			<div class="vertCenter" style="width: 100%">
+			<input type="text" value="" id="filterTextField" style="width: 95%">
+			</div>
+		</div>
+
+		<div id="linksScrollbox" style="overflow:auto; max-height: 450px">
+			<table class="linkTable">
+				<tbody id="output">
+				</tbody>
+			</table>
+		</div>
+  </body>
+</html>

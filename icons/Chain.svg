@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Derived from https://openclipart.org/detail/22077/chain-by-nicubunu -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="100%"
+   height="100%"
+   viewBox="0 0 120 120"
+   id="svg1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="nicubunu_Chain_2_bw.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="3.4735931"
+     inkscape:cx="56.894299"
+     inkscape:cy="60"
+     inkscape:window-x="-2"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title />
+        <dc:date>2009-03-10T13:22:47</dc:date>
+        <dc:description>golden chain</dc:description>
+        <dc:source>http://openclipart.org/detail/22077/chain-by-nicubunu</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>nicubunu</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>cartoon</rdf:li>
+            <rdf:li>chain</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>link</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g3029"
+     transform="translate(-0.0635595,-0.0168245)">
+    <path
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       d="m 69.2031,76.880534 c 8.373,-0.034 16.416,-3.172 23.685,-7.103 6.477,-3.64 12.657,-9.063 14.652,-16.484 1.7049,-6.554 -0.8346,-13.781 -5.6085,-18.417 -5.0115,-4.69 -12.396,-5.61 -18.942,-4.62 -7.618,1.21 -14.891,4.26 -21.4,8.35 -5.847,3.786 -11.13,9.365 -12.328,16.461 -0.922,6.036 1.172,11.010407 5.507,15.255407 2.595356,-2.329407 4.124,-4.912407 5.494,-8.366407 0.195,-1.699 -0.699,-3.281 -0.091,-5.165 2.76978,-4.168763 4.703,-7.396 8.312,-9.658 5.406,-3.097 11.319,-5.677 17.58,-6.274 3.574,-0.328 7.847,0.48 9.788,3.842 1.811,2.777 1.436,6.529 -0.561,9.104 -3.669,4.931 -9.46,7.621 -15.025,9.837 -3.388,1.268 -6.057644,2.402237 -9.699644,2.434237 -0.853,3.785 -3.340593,6.56317 -5.489593,9.77517 1.404,0.241 2.702237,1.019593 4.127237,1.028593 z"
+       id="path1088-6"
+       style="fill:none;stroke:#000000;stroke-width:1pt"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       d="m 50.924018,43.153115 c -8.373,0.034 -16.416001,3.172 -23.685001,7.103 -6.477,3.64 -12.656998,9.063 -14.651998,16.484 -1.7049,6.554 0.8346,13.781 5.608499,18.417 5.011499,4.69 12.395999,5.61 18.941999,4.62 7.618001,-1.21 14.891001,-4.26 21.400001,-8.35 5.847,-3.786 11.13,-9.365 12.328,-16.461 0.922,-6.036 -1.172,-11.010407 -5.507,-15.255407 -2.595356,2.329407 -4.124,4.912407 -5.494,8.366407 -0.195,1.699 0.699,3.281 0.091,5.165 -2.76978,4.168763 -4.703,7.396 -8.312,9.658 -5.406,3.097 -11.319,5.677 -17.580001,6.274 -3.574,0.328 -7.847,-0.48 -9.788,-3.842 -1.811,-2.777 -1.436,-6.529 0.561,-9.104 3.669,-4.931 9.46,-7.621 15.025001,-9.837 3.388,-1.268 6.057644,-2.402237 9.699644,-2.434237 0.853,-3.785 3.340593,-6.56317 5.489593,-9.77517 -1.404,-0.241 -2.702237,-1.019593 -4.127237,-1.028593 z"
+       id="path1088-6-0"
+       style="fill:none;stroke:#000000;stroke-width:1pt"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

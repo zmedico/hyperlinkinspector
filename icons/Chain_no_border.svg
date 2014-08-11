@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY fillcolor "#666666">
+]>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   id="svg1">
+  <defs
+     id="defs8" />
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2009-03-10T13:22:47</dc:date>
+        <dc:description>golden chain</dc:description>
+        <dc:source>http://openclipart.org/detail/22077/chain-by-nicubunu</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>nicubunu</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>cartoon</rdf:li>
+            <rdf:li>chain</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>link</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 71.053756,80.395701 c 10.126668,-0.04112 19.854221,-3.836354 28.645664,-8.590676 7.83356,-4.402374 15.30792,-10.961185 17.72076,-19.936463 2.06198,-7.926692 -1.0094,-16.667338 -6.78316,-22.274318 -6.06112,-5.672289 -14.992258,-6.784977 -22.909274,-5.587628 -9.213539,1.463427 -18.00982,5.152229 -25.882087,10.098852 -7.071615,4.578952 -13.461104,11.326436 -14.910017,19.908646 -1.115107,7.3002 1.417468,13.316463 6.660404,18.45055 3.138936,-2.817286 4.987744,-5.941278 6.644682,-10.118695 0.235841,-2.054844 -0.845401,-3.968184 -0.11006,-6.246775 3.349892,-5.041882 5.688012,-8.945042 10.052893,-11.680803 6.538251,-3.745646 13.689689,-6.86601 21.262013,-7.588047 4.322551,-0.396698 9.490506,0.580532 11.838036,4.646681 2.1903,3.358624 1.73676,7.896455 -0.6785,11.010772 -4.43745,5.963765 -11.441336,9.217167 -18.171888,11.897293 -4.097594,1.533574 -7.326377,2.90537 -11.731169,2.944072 -1.031655,4.577743 -4.040258,7.937782 -6.639352,11.822514 1.698059,0.291476 3.268203,1.23314 4.991659,1.244025 z"
+     id="path1088-6"
+     style="fill:&fillcolor;;fill-opacity:1;stroke:#000000;stroke-width:1.20944328pt" />
+  <path
+     d="M 48.946242,39.6043 C 38.819574,39.645421 29.09202,43.440654 20.300577,48.194976 12.467012,52.597349 4.9926552,59.15616 2.5798158,68.131439 0.51783591,76.05813 3.5892172,84.798777 9.3629773,90.405756 c 6.0611237,5.672289 14.9922577,6.784977 22.9092737,5.587628 9.21354,-1.463426 18.009822,-5.152228 25.882088,-10.098851 7.071615,-4.578953 13.461104,-11.326437 14.910017,-19.908646 1.115107,-7.3002 -1.417468,-13.316463 -6.660404,-18.45055 -3.138936,2.817285 -4.987744,5.941277 -6.644682,10.118695 -0.235841,2.054844 0.845401,3.968183 0.11006,6.246774 -3.349892,5.041883 -5.688012,8.945043 -10.052893,11.680804 -6.538251,3.745646 -13.689689,6.866009 -21.262015,7.588047 -4.32255,0.396697 -9.490501,-0.580533 -11.838031,-4.646681 -2.190301,-3.358624 -1.73676,-7.896456 0.678498,-11.010772 4.437448,-5.963765 11.441334,-9.217167 18.171887,-11.897294 4.097594,-1.533574 7.326377,-2.905369 11.731169,-2.944071 1.031655,-4.577743 4.040258,-7.937782 6.639352,-11.822514 -1.698059,-0.291476 -3.268203,-1.23314 -4.991659,-1.244025 z"
+     id="path1088-6-0"
+     style="fill:&fillcolor;;fill-opacity:1;stroke:#000000;stroke-width:1.20944328pt" />
+</svg>

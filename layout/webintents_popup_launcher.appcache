@@ -1,0 +1,5 @@
+CACHE MANIFEST
+webintents_popup_launcher.html
+../icons/favicon.ico
+../js/webintents.min.js
+../js/webintentsPopupLauncher.js

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY color "#505050">
+]>
+<!-- Derived from http://commons.wikimedia.org/wiki/File:High-contrast-media-playback-start.svg -->
+<svg height="1024" width="1024" xmlns="http://www.w3.org/2000/svg">
+  <g
+     transform="matrix(1.5741114,0,0,1.5741114,-212.09124,1302.2039)">
+    <path
+       d="m 200,-712 200,240 0,180 120,0 0,-180 200,-240 z"
+       style="fill:&color;;fill-opacity:1;fill-rule:evenodd;stroke:&color;;stroke-width:86.56158447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+</svg>
