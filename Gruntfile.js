@@ -63,9 +63,6 @@ module.exports = function(grunt) {
         destSize: 48
     }, {
         name: 'LinkInspector',
-        destSize: 32
-    }, {
-        name: 'LinkInspector',
         destSize: 16
     }, {
         name: 'Save_font_awesome',
@@ -140,7 +137,8 @@ module.exports = function(grunt) {
                 files: [{
                     cwd: iconTempDir,
                     src: [
-                        '*.png'
+                        '*.png',
+                        '!LinkInspector_32.png'
                     ],
                     dest: path.join(crxTempDir, 'icons'),
                 }],
@@ -252,12 +250,27 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('generate-favicon', 'Generate favicon.ico from png', function () {
 		var done = this.async();
-		var inputFile = path.join(iconTempDir, "LinkInspector_32.png");
-		var outputFile = path.join(iconTempDir, "favicon.ico");
+		var svg = require('./util/svg');
 		var convertPngToIco = require('./util/convertPngToIco');
-		convertPngToIco.convertFile(inputFile, outputFile, function(err) {
-			done(err);
-		});
+		var pngFile = path.join(iconTempDir, "LinkInspector_32.png");
+		var outputFile = path.join(iconTempDir, "favicon.ico");
+		svg.renderPng(
+			path.join(process.cwd(), "icons", "LinkInspector.svg"),
+			pngFile,
+			{destSize: 32},
+			function(err) {
+				if (err !== null) {
+					done(err);
+				} else {
+					convertPngToIco.convertFile(
+						pngFile,
+						outputFile,
+						function(err) {
+							done(err);
+						});
+				}
+			}
+		);
 	});
 
     grunt.registerTask('crx', ['icons', 'sync:crx_pngs','sync:crx_static', 'crx-chrome-command']);
