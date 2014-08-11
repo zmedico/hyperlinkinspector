@@ -66,9 +66,6 @@ module.exports = function(grunt) {
         destSize: 32
     }, {
         name: 'LinkInspector',
-        destSize: 19
-    }, {
-        name: 'LinkInspector',
         destSize: 16
     }, {
         name: 'Save_font_awesome',
@@ -114,31 +111,26 @@ module.exports = function(grunt) {
             },
             files: {
                 src: [
+					'layout/options.html',
                     'layout/popup.html',
                     'layout/webintents_popup_launcher.html'
                 ]
             }
         },
         sync: {
-			crx_favicons: {
-                files: [{
-                    cwd: iconTempDir,
-                    src: [
-                        'favicon.ico'
-                    ],
-                    dest: crxIconDir,
-                }],
-                verbose: true // Display log messages when copying files
-			},
             crx_static: {
                 files: [{
                     cwd: process.cwd(),
                     src: [
                         '**', /* Include everything */
                         '!.git/**', /* but exclude .git */
-                        '!node_modules/**',
+                        '!Gruntfile.js',
                         '!icons/*.png',
-                        '!icons/favicon.ico' /* regenerate these from svg */
+                        '!icons/*.svg',
+                        '!LICENSE*',
+                        '!node_modules/**',
+                        '!package.json',
+                        '!util/**'
                     ],
                     dest: crxTempDir,
                 }],
@@ -268,7 +260,7 @@ module.exports = function(grunt) {
 		});
 	});
 
-    grunt.registerTask('crx', ['icons', 'sync:crx_pngs', 'sync:crx_favicons', 'sync:crx_static', 'crx-chrome-command']);
+    grunt.registerTask('crx', ['icons', 'sync:crx_pngs','sync:crx_static', 'crx-chrome-command']);
     grunt.registerTask('snapshot', ['compress:snapshot']);
     grunt.registerTask('icons', ['generate-crx-pngs', 'generate-favicon']);
     grunt.registerTask('promo-images', ['generate-promo-images']);
