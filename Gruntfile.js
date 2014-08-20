@@ -31,6 +31,13 @@ module.exports = function(grunt) {
 			'-' + hour +  minute;
 	})(new Date());
 
+	var bundledLibs = [{
+		localPath: "web/js/webintents.min.js",
+		localModifiedTime: null,
+		localMd5: "90b7173fae4c9a7c932443bd7c3b059b",
+		remoteSrc: "http://webintents.org/webintents.min.js"
+	}];
+
 	var promoImages = [{
         srcFile: path.join(process.cwd(), "icons", "promotional_440x280.svg"),
         destFile: path.join(iconTempDir, 'promotional_440x280.png'),
@@ -92,7 +99,8 @@ module.exports = function(grunt) {
                 'js/require.js',
                 'js/simulateClick.js',
                 'util/convertPngToIco.js',
-                'util/svg.js'
+                'util/svg.js',
+                'util/updateBundledLibs.js'
             ],
             // configure JSHint (documented at http://www.jshint.com/docs/)
             options: {
@@ -275,6 +283,28 @@ module.exports = function(grunt) {
 				}
 			}
 		);
+	});
+
+	grunt.registerTask('update-bundled-libs',
+		'Update local copies of bundled libraries', function() {
+		var updateBundledLibs = require('./util/updateBundledLibs');
+		var done = this.async();
+		var i = 0;
+		var asyncLoop = function() {
+			if (i >= bundledLibs.length) {
+				done();
+				return;
+			}
+
+			updateBundledLibs.update(bundledLibs[i++], function(err) {
+				if (err)
+					done(err);
+				else
+					setTimeout(asyncLoop, 0);
+			});
+		};
+		asyncLoop();
+
 	});
 
     grunt.registerTask('crx', ['icons', 'sync:crx_pngs','sync:crx_static', 'crx-chrome-command']);
